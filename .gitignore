@@ -80,7 +80,7 @@ database.sqlite
 *.bak
 *.swp
 *~
-
+/tests
 # PhonePe SDK specific (if downloaded separately)
 /vendor/phonepe/
 
