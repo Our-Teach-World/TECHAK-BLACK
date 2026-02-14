@@ -1,0 +1,88 @@
+# Laravel Framework
+/vendor/
+/node_modules/
+/.env
+/.env.local
+/.env.*.local
+/public/hot
+/public/storage
+/storage/*.key
+/bootstrap/cache/
+.phpunit.result.cache
+storage/clockwork/
+
+# Environment variables
+.env
+.env.backup
+.env.*.backup
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+
+# Build files
+/public/build/
+/public/hot
+npm-debug.log
+yarn-error.log
+
+# Laravel specific
+/bootstrap/cache
+/storage/logs/*.log
+/storage/framework/cache/
+/storage/framework/sessions/
+/storage/framework/views/
+/storage/app/private/
+
+# Testing
+.phpunit.result.cache
+/coverage
+
+# Composer
+composer.lock
+
+# NPM / Yarn
+package-lock.json
+yarn.lock
+
+# IDE and editor files
+*.sublime-project
+*.sublime-workspace
+.vscode/
+.idea/
+*.iml
+.project
+.settings/
+.buildpath
+
+# Database
+*.sqlite
+*.sqlite3
+database.sqlite
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*~
+
+# PhonePe SDK specific (if downloaded separately)
+/vendor/phonepe/
+
+# OS generated files
+.env.example.backup
