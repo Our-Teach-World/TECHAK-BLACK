@@ -35,12 +35,6 @@ Thumbs.db
 .Trashes
 ehthumbs.db
 
-# Build files
-/public/build/
-/public/hot
-npm-debug.log
-yarn-error.log
-
 # Laravel specific
 /bootstrap/cache
 /storage/logs/*.log
