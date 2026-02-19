@@ -1,82 +1,61 @@
 # Laravel Framework
 /vendor/
-/node_modules/
-/.env
-/.env.local
-/.env.*.local
+/bootstrap/cache/
 /public/hot
 /public/storage
 /storage/*.key
-/bootstrap/cache/
-.phpunit.result.cache
-storage/clockwork/
+/storage/logs/
+/storage/framework/cache/
+/storage/framework/sessions/
+/storage/framework/views/
+/storage/app/private/
 
 # Environment variables
 .env
+.env.local
+.env.*.local
 .env.backup
 .env.*.backup
 
-# IDEs
+# Testing
+.phpunit.result.cache
+/coverage
+
+# Composer & Package Managers
+# Note: Consider committing composer.lock and package-lock.json for production
+# composer.lock
+# package-lock.json
+yarn.lock
+
+# IDE and Editor Files
 .vscode/
 .idea/
-*.swp
-*.swo
-*~
-.DS_Store
-Thumbs.db
 *.sublime-project
 *.sublime-workspace
+*.iml
+.project
+.settings/
+.buildpath
 
-# OS files
+# OS Generated Files
 .DS_Store
 .DS_Store?
 ._*
 .Spotlight-V100
 .Trashes
 ehthumbs.db
+Thumbs.db
 
-# Laravel specific
-/bootstrap/cache
-/storage/logs/*.log
-/storage/framework/cache/
-/storage/framework/sessions/
-/storage/framework/views/
-/storage/app/private/
-
-# Testing
-.phpunit.result.cache
-/coverage
-
-# Composer
-composer.lock
-
-# NPM / Yarn
-package-lock.json
-yarn.lock
-
-# IDE and editor files
-*.sublime-project
-*.sublime-workspace
-.vscode/
-.idea/
-*.iml
-.project
-.settings/
-.buildpath
-
-# Database
-*.sqlite
-*.sqlite3
-database.sqlite
-
-# Temporary files
+# Temporary Files
 *.tmp
 *.bak
 *.swp
+*.swo
 *~
-/tests
-# PhonePe SDK specific (if downloaded separately)
-/vendor/phonepe/
 
-# OS generated files
-.env.example.backup
+# Database (if using SQLite in project root)
+*.sqlite
+*.sqlite3
+
+# IDE Result Cache
+.phpunit.result.cache
