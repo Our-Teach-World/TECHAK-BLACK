@@ -1,14 +1,6 @@
 # Laravel Framework
 /vendor/
-/bootstrap/cache/
-/public/hot
-/public/storage
-/storage/*.key
-/storage/logs/
-/storage/framework/cache/
-/storage/framework/sessions/
-/storage/framework/views/
-/storage/app/private/
+
 
 # Environment variables
 .env
